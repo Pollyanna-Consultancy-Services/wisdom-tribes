@@ -1,7 +1,6 @@
 /* =================================
 ------------------------------------
-  WebUni - Education Template
-  Version: 1.0
+  
  ------------------------------------ 
  ====================================*/
 
@@ -266,8 +265,11 @@ ol {
 
 .site-logo {
 	display: inline-block;
-	height: 5px;
-	width: 100px;
+	
+}
+.site-logo img{
+	height: 70px;
+	width: auto;
 }
 
 .main-menu ul {
@@ -312,13 +314,20 @@ ol {
 	text-align: center;
 	padding-top: 340px;
 	margin-bottom: 105px;
+	
 }
 
 .hero-text h2 {
 	font-size: 60px;
 	font-weight: 500;
 	margin-bottom: 20px;
+	color: rgb(14, 30, 61);
 }
+.hero-text p {
+	color: rgb(20, 210, 235);
+}
+
+
 
 .intro-newslatter input[type=text],
 .intro-newslatter input[type=email] {
