@@ -267,8 +267,8 @@ ol {
 	display: inline-block;
 	
 }
-.site-logo img{
-	height: 70px;
+#site-logo {
+	height: 50px;
 	width: auto;
 }
 
