@@ -307,24 +307,30 @@ ol {
 ---------------------*/
 
 .hero-section {
-	height: 948px;
+	height: 700px;
+	background-size: cover;
+	position: relative;
+	clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 81%, 80% 94%, 50% 90%, 20% 94%, 0 81%, 0% 35%, 0 0);
 }
 
 .hero-text {
-	text-align: center;
-	padding-top: 340px;
+	text-align: left;
+	padding-top: 200px;
 	margin-bottom: 105px;
+	text-shadow: rgb(63, 63, 63);
+	
 	
 }
 
 .hero-text h2 {
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 500;
 	margin-bottom: 20px;
-	color: rgb(14, 30, 61);
+	color: rgb(32, 31, 31);
+	text-shadow: rgb(190, 188, 188);
 }
 .hero-text p {
-	color: rgb(20, 210, 235);
+	color: rgb(30, 28, 34);
 }
 
 
@@ -342,6 +348,9 @@ ol {
 
 .intro-newslatter .site-btn {
 	min-width: 214px;
+	background-color: rgb(57, 190, 57);
+	border: 1px solid white;
+	border-radius: 5px;
 }
 
 /*------------------
@@ -397,9 +406,10 @@ ol {
 ---------------------*/
 
 .search-warp {
-	background: #d82a4e;
-	padding-top: 60px;
-	padding-bottom: 50px;
+	background: #2d912ade;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	border-radius: 5px;
 }
 
 .search-warp .section-title {
@@ -409,6 +419,7 @@ ol {
 .course-search-form {
 	background: #fff;
 	padding: 44px 38px;
+	border-radius: 5px;
 }
 
 .course-search-form input[type=text],
@@ -431,6 +442,7 @@ ol {
 .course-search-form .site-btn {
 	min-width: 198px;
 	padding: 16px 10px;
+	border-radius: 5px;
 }
 
 .search-section.ss-other-page {
