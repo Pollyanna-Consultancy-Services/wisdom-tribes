@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="m.css">
+</head>
+
+<body>
+    
+
+    <!-- multistep registration form -->
+
+    <div>
+        <form id="regform">
+            <h1>Register as an indivisual Tutor</h1>
+
+            <!-- first tab  -->
+            <div id="name" class="formcontent  tab">
+                <h3>Name</h3>
+                <input type="text" placeholder="first name" id="fname">
+                <input type="text" placeholder="Last name" id="lname">
+                <!-- gender -->
+                <h3>Gender</h3>
+                <input type="text" placeholder="Gender" id="gender">
+                <!-- <organisation -->
+                 <h3>Teaching</h3>   
+                <input type="text " placeholder="Enter the main category you teach">    
+    
+            </div>
+
+            <!-- second tab  -->
+            <div id="contact" class="formcontent   tab ">
+                <h3>Coantact</h3>
+                <input type="text" placeholder="Phone number" id="phone">
+                <input type="text" placeholder="Email" id="email">
+                <input type="text" placeholder="Please enter your loacality pincode" id="address">
+
+            </div>
+
+            <!-- third tab  -->
+            <div id="login" class="formcontent  tab ">
+                <h3>Login</h3>
+                <input type="text" placeholder="Username" id="username">
+                <input type="text" placeholder="Password" id="password">
+
+            </div>
+            <!-- previous and next button  -->
+            <div style="overflow: auto;">
+                <div style="text-align: center;">
+                    <div id="buttons">
+                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                    </div>
+                </div>
+            </div>
+            <!-- progress bar  -->
+            <div id="progressbar">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+
+        </form>
+    </div> -->
+</body>
+
+<script src="script.js"></script>
+
+</html>
